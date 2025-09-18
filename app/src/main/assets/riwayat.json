@@ -1,0 +1,30 @@
+[
+  {
+    "tanggal_pelaporan": "2025-09-01",
+    "tipe_kerusakan": "Jalan Berlubang",
+    "deskripsi": "Pipa pecah di dekat jalan di depan pasar banyak lubang sehingga membahayakan pengendara motor.",
+    "bukti_foto": "pipa_pecah_satu.jpg",
+    "tanggapan_petugas": "Laporan diterima, perbaikan dijadwalkan minggu depan."
+  },
+  {
+    "tanggal_pelaporan": "2025-09-03",
+    "tipe_kerusakan": "Lampu Jalan Mati",
+    "deskripsi": "Lampu jalan di perempatan utama sudah mati selama 3 hari.",
+    "bukti_foto": "pipa_pecah_dua.jpg",
+    "tanggapan_petugas": "Petugas akan melakukan pengecekan malam ini."
+  },
+  {
+    "tanggal_pelaporan": "2025-09-05",
+    "tipe_kerusakan": "Trotoar Rusak",
+    "deskripsi": "Trotoar dekat sekolah retak dan berbahaya bagi pejalan kaki.",
+    "bukti_foto": "pipa_pecah_tiga.jpg",
+    "tanggapan_petugas": "Akan dimasukkan ke dalam daftar perbaikan bulan ini."
+  },
+  {
+    "tanggal_pelaporan": "2025-09-07",
+    "tipe_kerusakan": "Sampah Menumpuk",
+    "deskripsi": "Sampah di TPS tidak diangkut lebih dari 4 hari.",
+    "bukti_foto": "pipa_pecah_empat.jpg",
+    "tanggapan_petugas": "Sudah diteruskan ke dinas kebersihan untuk segera ditindaklanjuti."
+  }
+]

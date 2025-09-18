@@ -1,0 +1,4 @@
+package entitiy
+
+class User {
+}

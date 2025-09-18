@@ -1,0 +1,37 @@
+[
+  {
+    "id": "081234567890",
+    "nama": "Andi Sebastian",
+    "alamat": "Jl. Merdeka No.10, Puruk Cahu"
+  },
+  {
+    "id": "087654321098",
+    "nama": "Rifqi Mufdianto",
+    "alamat": "Jl. Kapten Piere Tendean No.7, Puruk Cahu"
+  },
+  {
+    "id": "089876543210",
+    "nama": "Daffa Kurniawan",
+    "alamat": "Jl. S. Parman No.25, Puruk Cahu"
+  },
+  {
+    "id": "082345678912",
+    "nama": "Chandra Arif",
+    "alamat": "Jl. Ahmad Yani No.15, Puruk Cahu"
+  },
+  {
+    "id": "081998877665",
+    "nama": "Zaky Ardiansyah",
+    "alamat": "Jl. Gajah Mada No.30, Puruk Cahu"
+  },
+  {
+    "id": "082112233445",
+    "nama": "Maya Salsabila",
+    "alamat": "Jl. Diponegoro No.18, Puruk Cahu"
+  },
+  {
+    "id": "083344556677",
+    "nama": "Fauzan Pratama",
+    "alamat": "Jl. Gatot Subroto No.22, Puruk Cahu"
+  }
+]

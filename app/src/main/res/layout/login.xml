@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Login screen matching the provided mockup. -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF">
+
+    <!-- Scroll container for small screens -->
+    <ScrollView
+        android:id="@+id/scroll"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!-- Content area -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingTop="24dp">
+
+                <!-- Brand -->
+                <TextView
+                    android:id="@+id/tvBrandTitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="PERUMDA"
+                    android:textAllCaps="true"
+                    android:layout_marginTop="40sp"
+                    android:textColor="#16BFA9"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:fontFamily="@font/poppinsbold" />
+
+                <TextView
+                    android:id="@+id/tvBrandSubtitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2dp"
+                    android:text="Danum Pomolum"
+                    android:textColor="#202427"
+                    android:textSize="14sp"
+                    android:fontFamily="@font/poppinsregular" />
+
+                <!-- Greeting -->
+                <TextView
+                    android:id="@+id/tvGreeting"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="28dp"
+                    android:text="Hallo, Pejuang PDAM"
+                    android:textColor="#111111"
+                    android:textSize="22sp"
+                    android:textStyle="bold"
+                    android:fontFamily="@font/poppinsbold" />
+
+                <TextView
+                    android:id="@+id/tvDescription"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:text="Akses informasi tagihan, bayar, dan pantau riwayat penggunaan air kapan saja tanpa repot."
+                    android:textColor="#8B93A6"
+                    android:textSize="13sp"
+                    android:textStyle="italic"
+                    android:fontFamily="@font/poppinsmedium"
+                    android:lineSpacingExtra="2dp" />
+
+                <!-- Email input -->
+                <FrameLayout
+                    android:id="@+id/inputEmail"
+                    android:layout_width="match_parent"
+                    android:layout_height="52dp"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/bg_input">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal"
+                        android:paddingLeft="14dp"
+                        android:paddingRight="14dp">
+
+                        <ImageView
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            android:src="@drawable/ic_email"
+                            android:tint="#B5BBCB" />
+
+                        <EditText
+                            android:id="@+id/etEmail"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:layout_weight="1"
+                            android:background="@android:color/transparent"
+                            android:hint="Email"
+                            android:inputType="textEmailAddress"
+                            android:textColor="#222222"
+                            android:textColorHint="#B5BBCB"
+                            android:textSize="14sp" />
+                    </LinearLayout>
+                </FrameLayout>
+
+                <!-- Password input -->
+                <FrameLayout
+                    android:id="@+id/inputPassword"
+                    android:layout_width="match_parent"
+                    android:layout_height="52dp"
+                    android:layout_marginTop="12dp"
+                    android:background="@drawable/bg_input">
+
+                    <!-- Eye toggle (no logic here; wire in code if desired) -->
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal"
+                        android:paddingLeft="14dp"
+                        android:paddingRight="46dp">
+
+                        <ImageView
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            android:src="@drawable/ic_password"
+                            android:tint="#B5BBCB" />
+
+                        <EditText
+                            android:id="@+id/etPassword"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:layout_weight="1"
+                            android:background="@android:color/transparent"
+                            android:hint="Password"
+                            android:inputType="textPassword"
+                            android:textColor="#222222"
+                            android:textColorHint="#B5BBCB"
+                            android:textSize="14sp" />
+                    </LinearLayout>
+
+                    <ImageButton
+                        android:id="@+id/btnTogglePassword"
+                        android:layout_width="36dp"
+                        android:layout_height="36dp"
+                        android:layout_gravity="center_vertical|end"
+                        android:layout_marginRight="6dp"
+                        android:background="@android:color/transparent"
+                        android:contentDescription="Tampilkan/Sembunyikan password"
+                        android:src="@drawable/ic_visibility_off"
+                        android:tint="#B5BBCB" />
+                </FrameLayout>
+
+                <!-- Primary button -->
+                <TextView
+                    android:id="@+id/btnMasuk"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="22dp"
+                    android:background="@drawable/bg_button_primary"
+                    android:gravity="center"
+                    android:text="Masuk"
+                    android:textAllCaps="false"
+                    android:textColor="#FFFFFF"
+                    android:textSize="16sp"
+                    android:fontFamily="sans-serif-medium" />
+
+                <!-- Spacer to push content above bottom art on tall screens -->
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="24dp" />
+            </LinearLayout>
+
+            <!-- Bottom decoration and caption -->
+            <RelativeLayout
+                android:layout_marginTop="86sp"
+                android:layout_width="match_parent"
+                android:layout_height="170dp">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/home" />
+
+                <TextView
+                    android:id="@+id/tvCaption"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginBottom="50dp"
+                    android:text="Aplikasi Petugas"
+                    android:textColor="#2A2A2A"
+                    android:textSize="15sp"
+                    android:fontFamily="@font/poppinsmedium"
+                    android:textStyle="italic" />
+
+            </RelativeLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>
+
